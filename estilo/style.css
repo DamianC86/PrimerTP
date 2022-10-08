@@ -2,18 +2,71 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #f7f7f7;
+    margin: 0%;
+    padding: 0%;
 }
 
 ul{
-    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #655560;
 }
 
-li{
-    float: none;
-    display: inline-block;
-    margin: 2%;
+.barraSup{
+    position: fixed;
+    top: 0%;
+    width: 100%;
 }
-a{
+  
+li{
+    float: left;
+    border-right: 1px solid white;
+}
+  
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
     text-decoration: none;
 }
 
+li a:hover:not(.seleccion){
+    background-color: black;
+}
+
+.seleccion{
+    background-color: #a4969b;
+}
+
+.carrito{
+    background-color: #1abc9c;
+    float: right;
+    border-left: 1px solid white;
+}
+
+input{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 2px 0;
+    box-sizing: border-box ;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    resize: none;
+}
+
+.desordenado{
+    float: none;
+    display: grid;
+    background-color: #f7f7f7;
+}
