@@ -69,4 +69,6 @@ textarea {
     float: none;
     display: grid;
     background-color: #f7f7f7;
+    padding-left: 2rem;
+    list-style-type: disc;
 }
