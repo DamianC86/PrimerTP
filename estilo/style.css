@@ -6,6 +6,13 @@ body{
     padding: 0%;
 }
 
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
 ul{
     list-style-type: none;
     margin: 0;
@@ -71,4 +78,19 @@ textarea {
     background-color: #f7f7f7;
     padding-left: 2rem;
     list-style-type: disc;
+}
+
+.mediosDePago{
+    padding-top: 2rem;
+}
+.caja{
+    display: flex;
+}
+#caja1{
+    width: 100%;
+}
+
+#caja2{
+    width: 50%;
+    padding-left: 1rem;
 }
